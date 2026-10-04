@@ -15,10 +15,12 @@
 
     # terminals
     cool-retro-term
+    
   ];
 
-
-
-
+  home.file = {
+    ".config/cool-retro-term".source = ./dotfiles/config-cool-retro-term;
+    ".local/share/cool-retro-term".source = ./dotfiles/share-cool-retro-term;
+  };
   
 }

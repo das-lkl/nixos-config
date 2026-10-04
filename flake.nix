@@ -49,3 +49,4 @@
 # TO UPDATE:
 # nix flake update 
 # sudo nixos-rebuild switch --flake .#T14
+# search for '#"broken"' to check broken pkgs

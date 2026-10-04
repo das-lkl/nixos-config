@@ -1,5 +1,5 @@
 {
-  description = "Modulares T14 NixOS Setup";
+  description = "T14 Setup";
 
   inputs = {
     nixpkgs.url = "github:NixOS/nixpkgs/nixpkgs-unstable";

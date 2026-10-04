@@ -8,9 +8,9 @@
         cd ~/nix-config
         git add .
         git commit -m "rebuildplus auto rebuild"
-        echo "adding, commiting and pushing to github"
+        echo "adding, commiting and pushing to github ---------------------"
         git push
-        echo "sudo nixos-rebuild switch --flake .#T14"
+        echo "sudo nixos-rebuild switch --flake .#T14 ---------------------"
         sudo nixos-rebuild switch --flake .#T14
       fi
     '')

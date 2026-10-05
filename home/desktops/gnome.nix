@@ -17,7 +17,7 @@
   gtk = {
     enable = true;
     font = {
-      name = "Shojumaru";
+      name = "Yuyu Short";
       size = 11;
       package = pkgs.google-fonts;
     };
@@ -31,8 +31,8 @@
   dconf.settings = {
     "org/gnome/desktop/interface" = {
       color-scheme = "prefer-dark";
-      font-name = "Shojumaru 11";
-      document-font-name = "Shojumaru 11";
+      font-name = "Yuyu Short 11";
+      document-font-name = "Yuyu Short 11";
     };
   };
 }

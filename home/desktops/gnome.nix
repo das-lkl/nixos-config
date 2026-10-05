@@ -17,7 +17,7 @@
   gtk = {
     enable = true;
     font = {
-      name = "Yuyu";
+      name = "Akaya Kanadaka";
       size = 11;
       package = pkgs.google-fonts;
     };
@@ -31,8 +31,8 @@
   dconf.settings = {
     "org/gnome/desktop/interface" = {
       color-scheme = "prefer-dark";
-      font-name = "Yuyu 11";
-      document-font-name = "Yuyu 11";
+      font-name = "Akaya Kanadaka 11";
+      document-font-name = "Akaya Kanadaka 11";
     };
   };
 }

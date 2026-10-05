@@ -42,8 +42,6 @@
   services.desktopManager.gnome.enable = true;
   programs.hyprland.enable = true; # Hyprland parallel verfügbar machen
 
-  # ... (Dein restlicher Bootloader/Netzwerk Code bleibt hier) ...
-
   # --- BOOT-SPLIT: NIXSTEAM ---
   specialisation."NixSteam".configuration = {
     system.nixos.tags = [ "gaming" ];

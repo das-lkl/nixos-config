@@ -3,7 +3,7 @@
 {
   home.packages = with pkgs; [
     # workbench
-    joplin-desktop  #"broken"
+    # joplin-desktop  #"broken"
     thunderbird
     libreoffice-qt
     hunspell

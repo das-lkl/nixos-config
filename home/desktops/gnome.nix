@@ -1,11 +1,14 @@
 { config, pkgs, ... }:
 
 {
-  # Microsoft Corefonts (bringt Comic Sans MS mit)
   home.packages = with pkgs; [
-    corefonts
+    corefonts # Microsoft fonts
     roboto
     inter
+    google-fonts # Google fonts
+
+
+
     gnome-tweaks
     gnome-extension-manager
   ];
@@ -14,9 +17,9 @@
   gtk = {
     enable = true;
     font = {
-      name = "Comic Sans MS";
+      name = "Short Stack";
       size = 11;
-      package = pkgs.corefonts;
+      package = pkgs.google-fonts;
     };
     theme = {
       name = "Adwaita-dark";
@@ -28,8 +31,8 @@
   dconf.settings = {
     "org/gnome/desktop/interface" = {
       color-scheme = "prefer-dark";
-      font-name = "Comic Sans MS 11";
-      document-font-name = "Comic Sans MS 11";
+      font-name = "Short Stack 11";
+      document-font-name = "Short Stack 11";
     };
   };
 }

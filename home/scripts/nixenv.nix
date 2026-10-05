@@ -1,5 +1,6 @@
-{ pkgs, lib, config, ... }:
+{ pkgs, lib, config, ... }: 
 
+# add the real path not nix-config
 {
   home.packages = with pkgs; [
     (pkgs.writeShellScriptBin "nixenv" ''

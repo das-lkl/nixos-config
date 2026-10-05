@@ -17,8 +17,8 @@
   gtk = {
     enable = true;
     font = {
-      name = "Ribeye Marrow";
-      size = 12;
+      name = "Just Me Again Down Here";
+      size = 11;
       package = pkgs.google-fonts;
     };
     theme = {
@@ -31,8 +31,8 @@
   dconf.settings = {
     "org/gnome/desktop/interface" = {
       color-scheme = "prefer-dark";
-      font-name = "Ribeye Marrow 12";
-      document-font-name = "Ribeye Marrow 12";
+      font-name = "Just Me Again Down Here 11";
+      document-font-name = "Just Me Again Down Here 11";
     };
   };
 }

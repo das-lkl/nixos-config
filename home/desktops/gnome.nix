@@ -18,7 +18,7 @@
     enable = true;
     font = {
       name = "Just Me Again Down Here";
-      size = 11;
+      size = 13;
       package = pkgs.google-fonts;
     };
     theme = {
@@ -31,8 +31,8 @@
   dconf.settings = {
     "org/gnome/desktop/interface" = {
       color-scheme = "prefer-dark";
-      font-name = "Just Me Again Down Here 11";
-      document-font-name = "Just Me Again Down Here 11";
+      font-name = "Just Me Again Down Here 13";
+      document-font-name = "Just Me Again Down Here";
     };
   };
 }

@@ -17,7 +17,7 @@
   gtk = {
     enable = true;
     font = {
-      name = "Yuyu Short";
+      name = "Chango";
       size = 11;
       package = pkgs.google-fonts;
     };
@@ -31,8 +31,8 @@
   dconf.settings = {
     "org/gnome/desktop/interface" = {
       color-scheme = "prefer-dark";
-      font-name = "Yuyu Short 11";
-      document-font-name = "Yuyu Short 11";
+      font-name = "Chango 11";
+      document-font-name = "Chango 11";
     };
   };
 }

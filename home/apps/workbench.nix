@@ -10,6 +10,8 @@
     hunspellDicts.en_US
     hunspellDicts.de_DE
 
+    vlc
+
     # code place
     vscodium
 

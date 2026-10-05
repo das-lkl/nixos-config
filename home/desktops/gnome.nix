@@ -17,8 +17,8 @@
   gtk = {
     enable = true;
     font = {
-      name = "Just Me Again Down Here";
-      size = 13;
+      name = "Short Stack";
+      size = 11;
       package = pkgs.google-fonts;
     };
     theme = {
@@ -31,8 +31,8 @@
   dconf.settings = {
     "org/gnome/desktop/interface" = {
       color-scheme = "prefer-dark";
-      font-name = "Just Me Again Down Here 13";
-      document-font-name = "Just Me Again Down Here";
+      font-name = "Short Stack 11";
+      document-font-name = "Short Stack 11";
     };
   };
 }

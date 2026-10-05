@@ -17,8 +17,8 @@
   gtk = {
     enable = true;
     font = {
-      name = "Akaya Kanadaka";
-      size = 11;
+      name = "Ribeye Marrow";
+      size = 12;
       package = pkgs.google-fonts;
     };
     theme = {
@@ -31,8 +31,8 @@
   dconf.settings = {
     "org/gnome/desktop/interface" = {
       color-scheme = "prefer-dark";
-      font-name = "Akaya Kanadaka 11";
-      document-font-name = "Akaya Kanadaka 11";
+      font-name = "Ribeye Marrow 12";
+      document-font-name = "Ribeye Marrow 12";
     };
   };
 }

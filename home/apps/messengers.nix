@@ -8,6 +8,6 @@
 
 
     # grrr Microslop
-    zoom
+    zoom-us
   ];
 }

@@ -5,5 +5,8 @@
     ./messengers.nix  # talk to me
     ./workbench.nix   # basic computer function apps
     ./games.nix
+
+  
+    ./asta.nix        # stuff i need for asta
   ];
 }

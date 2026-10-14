@@ -5,9 +5,5 @@
     telegram-desktop
     signal-desktop
     discord
-
-
-    # grrr Microslop
-    zoom-us
   ];
 }

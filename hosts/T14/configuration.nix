@@ -58,7 +58,12 @@
     };
     programs.gamemode.enable = true;
     
-    environment.systemPackages = with pkgs; [ discord brave mangohud ];
+    environment.systemPackages = with pkgs; [ 
+      discord
+      # brave 
+      mangohud 
+      
+      ];
     services.desktopManager.gnome.enable = true; # Nur als Fallback, falls du doch mal einen Desktop im Gaming-Modus brauchst
     
     # Hintergrunddienste killen

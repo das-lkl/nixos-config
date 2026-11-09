@@ -47,8 +47,8 @@
     system.nixos.tags = [ "gaming" ];
     boot.kernelPackages = pkgs.linuxPackages_zen;
     
-    # Touchscreen Hardware-seitig blockieren
-    boot.blacklistedKernelModules = [ "hid_multitouch" ];
+    # Touchscreen Hardware-seitig blockieren ggf touchpad ? 
+    # boot.blacklistedKernelModules = [ "hid_multitouch" ];
 
     hardware.graphics = { enable = true; enable32Bit = true; };
 
@@ -107,11 +107,11 @@
     extraGroups = [ "networkmanager" "wheel" ];
   };
   
-  nix.gc = {
-    automatic = true;
-    dates = "weekly";
-    options = "--delete-older-than 14d";
-  };
+  # nix.gc = {
+  #   automatic = true;
+  #   dates = "weekly";
+  #   options = "--delete-older-than 14d";
+  # };
 
   system.stateVersion = "26.05";
 }

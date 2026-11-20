@@ -19,6 +19,8 @@
     enable = true;
     powerOnBoot = false;
   };
+  
+  services.openssh.enable = true;
 
   # Zeit & Sprache
   time.timeZone = "Europe/Berlin";

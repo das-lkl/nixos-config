@@ -5,6 +5,11 @@
     blender
     gimp
     krita
+
+
+
+    # e reader
+    calibre
   ];
 
 }

@@ -2,11 +2,12 @@
 
 {
   home.packages = with pkgs; [
-    hyperrogue
-    nethack
-
     # minecraft
     prismlauncher
-    jdk21_headless
+    jdk21_headles
+    
+    # runescape
+    bolt-launcher
+    runelites
   ];
 }

@@ -7,7 +7,7 @@
     # jdk21_headles
     
     # runescape
-    bolt-launcher
-    runelites
+    # bolt-launcher
+    # runelites
   ];
 }

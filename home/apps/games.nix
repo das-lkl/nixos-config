@@ -4,7 +4,7 @@
   home.packages = with pkgs; [
     # minecraft
     prismlauncher
-    jdk21_headles
+    # jdk21_headles
     
     # runescape
     bolt-launcher
